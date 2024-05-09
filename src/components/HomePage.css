@@ -85,3 +85,15 @@
   font-size: 21px;
   color: rgb(240, 229, 229);
 }
+
+#about,
+#contact,
+#workplace-guidelines {
+  display: none;
+}
+
+#about.active,
+#contact.active,
+#workplace-guidelines.active {
+  display: block;
+}

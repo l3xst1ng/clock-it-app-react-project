@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import AttendanceTable from "./AttendanceTable";
 import UserProfile from "./UserProfile";
-import './Dashboard.css'
+import './EmployeeDashboard.css'
 
 const EmployeeDashboard = ({firstName}) => {
   const [attendanceData, setAttendanceData] = useState({
