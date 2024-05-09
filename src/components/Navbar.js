@@ -1,11 +1,16 @@
+import { useNavigate } from "react-router-dom";
 import React from "react";
 
-const Navbar = () => {
+const NavBar = () => {
+    const navigate = useNavigate()
+    const handleLoginClick = () => {
+        navigate('/LoginPage')
+    }
   return (
     <header>
       <nav>
         <div className="logo">
-          <a href="#">ClockIt</a>
+          <p>ClockIt</p>
         </div>
         <ul>
           <li>
@@ -21,7 +26,8 @@ const Navbar = () => {
             <a href="#contact">Contact</a>
           </li>
           <li>
-            <a href="#check-in" className="login-btn">
+            <a onClick={handleLoginClick}
+            href="#check-in" className="login-btn">
               Check In
             </a>
           </li>
@@ -31,4 +37,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default NavBar;

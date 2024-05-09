@@ -1,14 +1,8 @@
-import logo from './logo.svg';
+import LoginPage from './LoginPage';
+import Dashboard from './components/EmployeeDashboard';
+import LandingPage from './components/LandingPage.js';
 import './App.css';
-import LandingPage from './components/LandingPage';
 
-
-function App() {
-  return (
-    <div className='app' > <LandingPage />
-
-    </div>
-  );
 }
 
 export default App;

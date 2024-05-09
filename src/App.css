@@ -2,37 +2,46 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.check-in-form{
+  display: inline-block;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+ border-style: solid;
+ border-radius: 10px;
+ border-width: 1px;
+ width: 400px;
+ font-size: medium;
+ margin-top: 20px;
+ box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.check-in-form p{
+  display: flex;
+  flex-direction: row;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+#name{
+  display: inline-block;
+  font-size: x-large;
+  
+}
+#role{
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  width: fit-content;
+  font-size: x-large;
 }
-
-.App-link {
-  color: #61dafb;
+#password{
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  font-size: x-large;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.check-in-form button{
+  margin: 5px 5px;
+}
+.check-in-form button:hover{
+  margin: 5px 5px;
+  cursor: pointer;
+  background-color: rgb(108, 106, 106);
+  color: grey;
 }
