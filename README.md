@@ -1,70 +1,83 @@
-# Getting Started with Create React App
+# Tardy Spector - Attendance Tracking Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description
 
-## Available Scripts
+Clockit is a leading workforce management software solution designed to streamline time tracking, scheduling, and attendance processes for businesses of all sizes. With its user-friendly interface and robust features, Clockit empowers companies to optimize their workforce efficiency and productivity.
 
-In the project directory, you can run:
+## About
 
-### `npm start`
+With Clockit, companies can optimize their workforce efficiency and productivity, reduce labor costs, and improve compliance.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+-
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Live Site
 
-### `npm test`
+## Features
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Student Check-In**: Students can securely log in and check-in to record their attendance for the day.
+- **Employee Authentication**: Employees, should be able to check-in to the platform and record my arrival time for the day. -**Time Tracking**: Employees should have their arrival time recorded by the system, including the date and attendance status (On Time, Late, Absent).
+  Employee Dashboard: Employees, should be able to view attendance history, including dates, arrival times, and attendance status.
 
-### `npm run build`
+## Technologies Used
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **Front-end**: React,HTML, CSS, JavaScript,
+- **Back-end**: JSON Server (for local development and testing)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Getting Started
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Installation
 
-### `npm run eject`
+1. Clone the repository:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```bash
+git https://github.com/l3xst1ng/clock-it-app-react-project
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+2. Navigate to the project directory:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+`cd `
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+3. 3. Install React dependencies:
 
-## Learn More
+```bash
+ npm install
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+4.  Install JSON Server globally:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```bash
+ npm install -g json-server
+```
 
-### Code Splitting
+3. Run the server:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```bash
+json-server --watch db.json
+```
 
-### Analyzing the Bundle Size
+5. Run the application:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+```bash
+npm start
+```
 
-### Making a Progressive Web App
+6. Access Clockit through your web browser at http://localhost:3000
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Usage
 
-### Advanced Configuration
+1. Visit the application's homepage.
+2. Click the "Check In" button in the navigation menu.
+3. Enter login credentials in the input form.
+4. After successful ogin, users can proceed to the dashboard to view their attendance history.
+5. The dashboard will display the attendance records, including dates, arrival times, and attendance status.
+6. You can refer to the "Workplace Guidelines Policies " section for detailed information about the institution's attendance guidelines.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Contributing
 
-### Deployment
+- Contributions are welcome!
+- If you encounter any issues or have suggestions for features or improvements, please feel free to open an issue or submit a pull request. Your feedback and contributions will help make the project better for everyone. Thank you for your support!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## License & Copy
 
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- This project is licensed under the [MIT License].
+  © 2024. All rights reserved.
