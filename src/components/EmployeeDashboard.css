@@ -1,0 +1,14 @@
+.employee-dashboard {
+    max-width: 800px;
+    margin: 0 auto;
+    margin-bottom: 300px;
+    padding: 20px;
+  }
+
+  
+  .employee-dashboard h1 {
+    margin-left: 120px;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }

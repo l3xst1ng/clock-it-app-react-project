@@ -1,0 +1,125 @@
+.landing-page {
+  /* background-image: url("../Images/BG.png");*/
+  min-height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Navbar styles */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #0c0c0c;
+  color: #fff;
+  padding: 1rem;
+}
+
+.logo a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav ul li {
+  margin-left: 1rem;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 0.5rem;
+  transition: background-color 0.3s ease;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+nav ul li a:hover {
+  background-color: #555;
+}
+
+.login-btn {
+  background-color: #0d10e0;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.login-btn:hover {
+  background-color: aqua;
+}
+
+/* HomePage styles */
+#cta {
+  margin-top: 105px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+  padding: 0;
+  font-size: 60px;
+  text-transform: uppercase;
+  color: rgb(240, 229, 229);
+  display: flex;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+}
+
+.cta-text-1 {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 35px;
+  text-align: justify;
+  margin-bottom: 20px;
+  color: #cce6f1;
+}
+
+.cta-text-2 {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 26px;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #eee0c9;
+}
+
+.cta-text-3 {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 33px;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #cce6f1;
+}
+
+/* Footer styles */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+  margin-top: auto;
+}

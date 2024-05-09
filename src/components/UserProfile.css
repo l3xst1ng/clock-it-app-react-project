@@ -1,0 +1,35 @@
+userProfile.css
+.user-profile {
+    background-color: #f2f2f2;
+    padding: 20px;
+
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  .user-profile h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    margin-left: 70px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .user-profile p {
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 400;
+  }
+  
+  .user-profile .role {
+    font-weight: bold;
+    margin-top: 5px;
+  }
+  
+  .user-profile .attendance-message {
+    margin-top: 10px;
+    font-style: italic;
+    font-weight: bolder;
+    color: #5b5b5b;
+  }
