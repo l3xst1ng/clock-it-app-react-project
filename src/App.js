@@ -1,7 +1,8 @@
-import LoginPage from './LoginPage';
-import Dashboard from './components/EmployeeDashboard';
-import LandingPage from './components/LandingPage.js';
+
 import './App.css';
+import LoginPage from './components/LoginPage';
+
+
 
 }
 
