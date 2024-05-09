@@ -1,6 +1,6 @@
 .landing-page {
-  /* background-image: url("../Images/BG.png");*/
   min-height: 100vh;
+  /* background-image: url("../Images/BG.png"); */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -35,11 +35,13 @@ nav ul li {
 }
 
 nav ul li a {
-  color: #fff;
+  color: azure;
   text-decoration: none;
   padding: 0.5rem;
   transition: background-color 0.3s ease;
   font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 17px;
+  text-transform: uppercase;
 }
 
 nav ul li a:hover {
@@ -47,7 +49,7 @@ nav ul li a:hover {
 }
 
 .login-btn {
-  background-color: #0d10e0;
+  background-color: #364182;
   color: #fff;
   border: none;
   padding: 0.5rem 1rem;
@@ -57,36 +59,20 @@ nav ul li a:hover {
 }
 
 .login-btn:hover {
-  background-color: aqua;
+  background-color: mediumpurple;
+  transform: scale(1.4);
 }
-
+.login-btn.scale:hover {
+  transform: scale(1.4);
+}
 /* HomePage styles */
 #cta {
-  margin-top: 105px;
-  margin-left: 10px;
-  margin-right: 10px;
-  margin-bottom: 20px;
   padding: 0;
-  font-size: 60px;
+  font-size: 50px;
   text-transform: uppercase;
   color: rgb(240, 229, 229);
   display: flex;
-  text-align: center;
-  top: 50%;
-  left: 50%;
-}
-
-.cta-text-1 {
-  justify-content: center;
-  align-items: center;
-  display: flex;
-  font-family: Georgia, "Times New Roman", Times, serif;
-  font-weight: 300;
-  font-style: normal;
-  font-size: 35px;
-  text-align: justify;
-  margin-bottom: 20px;
-  color: #cce6f1;
+  margin-left: 10px;
 }
 
 .cta-text-2 {
@@ -96,9 +82,9 @@ nav ul li a:hover {
   font-family: Georgia, "Times New Roman", Times, serif;
   font-weight: 300;
   font-style: normal;
-  font-size: 26px;
+  font-size: 35px;
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 2px;
   color: #eee0c9;
 }
 
@@ -123,3 +109,4 @@ footer {
   padding: 1rem;
   margin-top: auto;
 }
+
