@@ -127,7 +127,7 @@ function LoginPage({firstName, setFirstName}) {
                 <div className="toggle">
                     <div className="toggle-panel toggle-left">
                         <h1>Welcome Back!</h1>
-                        <p>The user profile will contain all your details.</p>
+                        <p>The user profile  contains all your details.</p>
                         <button className={`hidden ${isCheckIn ? '' : 'active'}`} onClick={handleLoginClick}>Go back</button>
                     </div>
                     <div className="toggle-panel toggle-right">
