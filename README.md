@@ -1,4 +1,4 @@
-# Tardy Spector - Attendance Tracking Application
+# Clockit - Attendance Tracking Application
 
 ## Description
 
