@@ -33,7 +33,7 @@ function LoginPage({firstName, setFirstName}) {
     const handleSubmit = (e) => {
         e.preventDefault();
 
-        // Capture the current time as the arrival time
+        // Capturing the current time as the arrival time
         const datestring = new Date();
         const currentTime = datestring.toLocaleTimeString();
         const currentDate = new Date().toLocaleDateString();
@@ -41,7 +41,7 @@ function LoginPage({firstName, setFirstName}) {
         const updatedFormData = { ...formData, arrivalTime: currentTime, date: currentDate};
         
 
-        // Determine the attendance status based on the arrival time
+        // Determining the attendance status based on the arrival time
         const attendanceStatus = getAttendanceStatus(currentTime);
         updatedFormData.attendanceStatus = attendanceStatus;
 
@@ -61,8 +61,8 @@ function LoginPage({firstName, setFirstName}) {
                 console.error(err);
             });
 
-        // Process form data, e.g., send it to backend for authentication
-        // For now, just console.log the form data
+       
+        
         console.log(updatedFormData);
 
         // After successful sign-in, toggle to user profile
@@ -72,7 +72,7 @@ function LoginPage({firstName, setFirstName}) {
 
     // Function to determine the attendance status based on the arrival time
     const getAttendanceStatus = (arrivalTime) => {
-        // Assuming the expected arrival time is 9:00 AM
+        
         const expectedArrivalTime = new Date();
         expectedArrivalTime.setHours(9, 0, 0, 'AM');
 
@@ -118,7 +118,7 @@ function LoginPage({firstName, setFirstName}) {
                         <input required type="text" name="firstName" placeholder="First Name" value={formData.firstName} onChange={handleChange} />
                         <input required type="text" name="lastName" placeholder="Last Name" value={formData.lastName} onChange={handleChange} />
                         <input required type="text" name="role" placeholder="Role" value={formData.role} onChange={handleChange} />
-                        <a href="#">Enter your Details and the your role in the company</a>
+                        <a id= 'promt-text' href="#">Enter your Details and the your role in the company</a>
                         <button type="submit">Check In</button>
                     </form>
                 </div>

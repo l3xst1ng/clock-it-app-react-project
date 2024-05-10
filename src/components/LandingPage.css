@@ -1,3 +1,7 @@
+body {
+  padding-top: 80px;
+}
+
 .landing-page {
   min-height: 100vh;
   /* background-image: url("../Images/BG.png"); */
@@ -16,15 +20,26 @@ nav {
   background-color: #0c0c0c;
   color: #fff;
   padding: 1rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
 }
 
-.logo a {
-  color: #fff;
+.logo {
   text-decoration: none;
-  font-size: 1.5rem;
+  font-size: 1rem;
   font-weight: bold;
-}
 
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.logo-text {
+  color: #fff;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 23px;
+}
 nav ul {
   display: flex;
   list-style: none;
@@ -42,6 +57,7 @@ nav ul li a {
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 17px;
   text-transform: uppercase;
+  font-weight: bold;
 }
 
 nav ul li a:hover {
@@ -65,48 +81,21 @@ nav ul li a:hover {
 .login-btn.scale:hover {
   transform: scale(1.4);
 }
-/* HomePage styles */
-#cta {
-  padding: 0;
-  font-size: 50px;
-  text-transform: uppercase;
-  color: rgb(240, 229, 229);
-  display: flex;
-  margin-left: 10px;
-}
-
-.cta-text-2 {
-  justify-content: center;
-  align-items: center;
-  display: flex;
-  font-family: Georgia, "Times New Roman", Times, serif;
-  font-weight: 300;
-  font-style: normal;
-  font-size: 35px;
-  text-align: center;
-  margin-bottom: 2px;
-  color: #eee0c9;
-}
-
-.cta-text-3 {
-  justify-content: center;
-  align-items: center;
-  display: flex;
-  font-family: Georgia, "Times New Roman", Times, serif;
-  font-weight: 500;
-  font-style: normal;
-  font-size: 33px;
-  text-align: center;
-  margin-bottom: 20px;
-  color: #cce6f1;
-}
 
 /* Footer styles */
 footer {
   background-color: #333;
+  width: 100%;
   color: #fff;
   text-align: center;
   padding: 1rem;
   margin-top: auto;
 }
 
+.section {
+  display: none;
+}
+
+.section.active {
+  display: block;
+}

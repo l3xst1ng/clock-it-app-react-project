@@ -6,15 +6,21 @@ const Contact = () => {
     <section id="contact">
       <div className="container">
         <h2>Contact Us</h2>
+        <p className="contact-header-content">
+          
+          If you encounter any technical issues or have any complaints
+          concerning Clockit, please don't hesitate to contact us. We're here to
+          help!
+        </p>
         <div className="contact-info">
           <div className="contact-item">
             <i className="fas fa-map-marker-alt"></i>
             <p>
-              123 Main Street
+              Riverside Drive
               <br />
-              City, State ZIP
+              Nairobi, 00073
               <br />
-              Country
+              Kenya
             </p>
           </div>
           <div className="contact-item">

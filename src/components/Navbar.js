@@ -1,7 +1,7 @@
 import { useNavigate } from "react-router-dom";
 import React from "react";
 
-const NavBar = () => {
+const NavBar = ({ onSectionClick }) => {
   const navigate = useNavigate();
   const handleLoginClick = () => {
     navigate("/LoginPage");
@@ -10,24 +10,31 @@ const NavBar = () => {
     <header>
       <nav>
         <div className="logo">
-          <p onClick={() => navigate("/")}>ClockIt</p>
+          <p className="logo-text" onClick={() => onSectionClick("home")}>
+            ClockIt
+          </p>
         </div>
         <ul>
           <li>
-            <a href="#home-page">Home</a>
+            <a onClick={() => onSectionClick("home")} href="#home-page">
+              Home
+            </a>
           </li>
           <li>
-            <a onClick={() => navigate("/About")} href="#about">
+            <a onClick={() => onSectionClick("about")} href="#about">
               About
             </a>
           </li>
           <li>
-            <a onClick={() => navigate("/WorkplaceGuidelines")} href="#contact">
-              Workplace Guidlines
+            <a
+              onClick={() => onSectionClick("workplace-guidelines")}
+              href="#workplace-guidelines"
+            >
+              Workplace Guidelines
             </a>
           </li>
           <li>
-            <a onClick={() => navigate("/Contact")} href="#contact">
+            <a onClick={() => onSectionClick("contact")} href="#contact">
               Contact
             </a>
           </li>
