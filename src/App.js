@@ -9,10 +9,6 @@ import {  useState } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 
-export default App;
-
-export default App;
-=======
 function App() {
   const [firstName, setFirstName] = useState("")
 

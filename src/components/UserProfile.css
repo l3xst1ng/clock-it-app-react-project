@@ -15,21 +15,30 @@ userProfile.css
     margin-bottom: 10px;
   }
   
-  .user-profile p {
+   p {
     margin-bottom: 10px;
     font-size: 20px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: 400;
   }
   
-  .user-profile .role {
+ .role {
     font-weight: bold;
     margin-top: 5px;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   }
+
   
   .user-profile .attendance-message {
     margin-top: 10px;
     font-style: italic;
     font-weight: bolder;
     color: #5b5b5b;
+  }
+
+  .attendance-message{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    margin-top: 10px;
   }
