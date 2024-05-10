@@ -4,7 +4,8 @@ import "./WorkplaceGuidelines.css";
 const WorkplaceGuidelines = () => {
   return (
     <section id="workplace-guidelines">
-      <div className="container">
+      
+      <div className="guideline-container">
         <h2>Clock It Guidelines</h2>
         <div className="guideline-list">
           <div className="guideline-item">
@@ -42,23 +43,7 @@ const WorkplaceGuidelines = () => {
               </li>
             </ul>
           </div>
-          <div className="guideline-item">
-            <h3>Break Management</h3>
-            <ul>
-              <li>
-                Take designated breaks as per company policy and record them
-                accurately in the Clock It app.
-              </li>
-              <li>
-                Clock out when starting your break and clock back in when
-                returning to work.
-              </li>
-              <li>
-                Adhere to the allocated break times to maintain productivity and
-                ensure fair time tracking.
-              </li>
-            </ul>
-          </div>
+        
           <div className="guideline-item">
             <h3>Technical Support</h3>
             <ul>
