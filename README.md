@@ -8,9 +8,9 @@ Clockit is a leading workforce management software solution designed to streamli
 
 With Clockit, companies can optimize their workforce efficiency and productivity, reduce labor costs, and improve compliance.
 
--
-
 ## Live Site
+
+https://clock-it-app-react-project-8iaq.vercel.app/
 
 ## Features
 
