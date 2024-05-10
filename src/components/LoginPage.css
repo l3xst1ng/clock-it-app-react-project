@@ -211,6 +211,11 @@ body {
   transform: translateX(200%);
 }
 .right-margin {
-  margin-right: 20px;
+  margin-left: 415px;
   align-items: end;
+}
+#prompt-text {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  color: black;
 }
